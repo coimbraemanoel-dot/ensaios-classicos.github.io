@@ -33,7 +33,7 @@
     <section class="min-h-screen flex items-center dark-academia pt-20">
         <div class="max-w-4xl mx-auto text-center px-6">
             <h2 class="heading text-7xl md:text-8xl leading-none mb-6">Ensaios Clássicos</h2>
-            <p class="text-2xl text-[#c9a66b] mb-8">Reflexões profundas sobre teologia, filosofia, literatura, comportamento e geopolítica</p>
+            <p class="text-2xl text-[#c9a66b] mb-8">Reflexões sobre teologia, filosofia e literatura</p>
             <p class="text-xl italic">por Emanoel Coimbra</p>
             <a href="#ensaios" 
                class="inline-block mt-12 px-10 py-4 border border-[#c9a66b] text-[#c9a66b] hover:bg-[#c9a66b] hover:text-[#0f0f0f] text-xl transition-all duration-300">
@@ -88,7 +88,7 @@
         <p class="text-2xl mb-6">Quer conversar sobre algum ensaio?</p>
         <a href="mailto:coimbraemanoel@gmail.com" 
            class="inline-flex items-center gap-3 text-[#c9a66b] hover:text-amber-300 text-xl">
-            <i class="fa-solid fa-envelope"></i> emanoelcoimbra@gmail.com
+            <i class="fa-solid fa-envelope"></i> coimbraemanoel@gmail.com
         </a>
     </section>
 
