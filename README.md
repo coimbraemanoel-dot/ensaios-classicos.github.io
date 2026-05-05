@@ -19,7 +19,7 @@
     <!-- NAV -->
     <nav class="bg-[#1a1a1a] border-b border-[#c9a66b]/30 fixed w-full z-50">
         <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
-            <h1 class="heading text-3xl tracking-widest text-[#c9a66b]">Ensaios clássicos</h1>
+            <h1 class="heading text-3xl tracking-widest text-[#c9a66b]">Ensaios clássicos </h1>
             <div class="flex gap-8 text-lg">
                 <a href="#sobre" class="hover:text-[#c9a66b] transition">Sobre</a>
                 <a href="#ensaios" class="hover:text-[#c9a66b] transition">Ensaios</a>
