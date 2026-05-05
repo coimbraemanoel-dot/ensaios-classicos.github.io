@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ensaios clássicos sobre teologia, filosofia, literatura, comportamento e geopolítica por Emanoel Coimbra">
-    <title>Ensaios Clássicos | Emanoel Coimbra</title>
+    <title> Ensaios Clássicos | Emanoel Coimbra</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
@@ -47,11 +47,11 @@
         <h2 class="heading text-5xl mb-10 text-center">Sobre Emanoel Coimbra</h2>
         <div class="prose prose-invert max-w-none text-lg leading-relaxed">
             <p class="text-[#e8e0d8]/90">
-                Pensador independente e escritor, Emanoel Coimbra explora as grandes questões da existência humana através da lente da teologia, filosofia e literatura clássica. 
-                Seus ensaios buscam entender o comportamento humano, as tensões da geopolítica contemporânea e o diálogo eterno entre fé e razão.
+                apenas um rapaz tentando processar o prórpio mundo e o próprio pensamento via escrita. 
+               
             </p>
             <p class="text-[#e8e0d8]/90 mt-6">
-                Com uma abordagem que valoriza a profundidade e a clareza, seus textos são convites à reflexão lenta em um mundo acelerado.
+               
             </p>
         </div>
     </section>
@@ -86,7 +86,7 @@
     <!-- CONTATO -->
     <section id="contato" class="max-w-4xl mx-auto px-6 py-24 text-center">
         <p class="text-2xl mb-6">Quer conversar sobre algum ensaio?</p>
-        <a href="mailto:emanoelcoimbra@gmail.com" 
+        <a href="mailto:coimbraemanoel@gmail.com" 
            class="inline-flex items-center gap-3 text-[#c9a66b] hover:text-amber-300 text-xl">
             <i class="fa-solid fa-envelope"></i> emanoelcoimbra@gmail.com
         </a>
@@ -95,7 +95,7 @@
     <!-- FOOTER -->
     <footer class="bg-black py-12 text-center text-[#e8e0d8]/60 text-sm">
         <p>© 2026 Ensaios Clássicos • Emanoel Coimbra</p>
-        <p class="mt-2">Feito com paixão pela palavra escrita.</p>
+        <p class="mt-2">paixão pela palavra .</p>
     </footer>
 
     <script>
