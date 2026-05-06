@@ -100,38 +100,7 @@
 
     <script>
         // Dados dos ensaios (você pode editar ou adicionar quantos quiser)
-        const essays = [
-            {
-                title: "A Morte de Deus e o Vazio do Homem Moderno",
-                date: "05 de maio de 2026",
-                category: "Filosofia",
-                excerpt: "Nietzsche não profetizou o fim da fé, mas o surgimento de um abismo existencial que ainda não sabemos preencher."
-            },
-            {
-                title: "Teologia do Poder: Quando a Fé se Torna Ideologia",
-                date: "28 de abril de 2026",
-                category: "Teologia",
-                excerpt: "Como o cristianismo clássico se distancia das narrativas de poder que dominam o debate religioso atual."
-            },
-            {
-                title: "O Declínio da Leitura Profunda na Era das Telas",
-                date: "20 de abril de 2026",
-                category: "Literatura",
-                excerpt: "Por que ler Dostoiévski ainda é um ato de resistência contra o pensamento superficial."
-            },
-            {
-                title: "Geopolítica do Medo: O Novo Mapa-Múndi do Século XXI",
-                date: "12 de abril de 2026",
-                category: "Geopolítica",
-                excerpt: "Como o medo substituiu a ideologia como principal motor das relações internacionais."
-            },
-            {
-                title: "Comportamento Humano: Por que Continuamos a Trair a Nós Mesmos",
-                date: "05 de abril de 2026",
-                category: "Comportamento",
-                excerpt: "Uma reflexão filosófica sobre autocontrole, desejo e a fragilidade da vontade."
-            }
-        ];
+        const essays = [ }];
 
         // Renderizar os ensaios
         function renderEssays() {
