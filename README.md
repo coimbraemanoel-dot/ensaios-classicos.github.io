@@ -77,5 +77,41 @@
                     Inscrever-se
                 </button>
             </form>
-            <p id="form-message" class="mt-6 text-sm text-[#c9a66b] hidden">✅ Inscrição realizada com sucesso!
+            <p id="form-message" class="mt-6 text-sm text-[#c9a66b] hidden">✅ Inscrição realizada com sucesso! Bem-vindo à comunidade.</p>
+        </div>
+    </section>
 
+    <!-- CONTATO -->
+    <section id="contato" class="max-w-4xl mx-auto px-6 py-24 text-center">
+        <p class="text-2xl mb-6">Quer conversar sobre algum ensaio?</p>
+        <a href="mailto:emanoelcoimbra@gmail.com" 
+           class="inline-flex items-center gap-3 text-[#c9a66b] hover:text-amber-300 text-xl">
+            <i class="fa-solid fa-envelope"></i> emanoelcoimbra@gmail.com
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-12 text-center text-[#e8e0d8]/60 text-sm">
+        <p>© 2026 Ensaios Clássicos • Emanoel Coimbra</p>
+        <p class="mt-2">Feito com paixão pela palavra escrita.</p>
+    </footer>
+
+    <script>
+        const essays = [];   // ← Totalmente vazio (nenhum ensaio)
+
+        function renderEssays() {
+            const grid = document.getElementById('essays-grid');
+            grid.innerHTML = '';
+        }
+
+        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('form-message').classList.remove('hidden');
+            this.reset();
+            setTimeout(() => document.getElementById('form-message').classList.add('hidden'), 5000);
+        });
+
+        window.onload = renderEssays;
+    </script>
+</body>
+</html>
