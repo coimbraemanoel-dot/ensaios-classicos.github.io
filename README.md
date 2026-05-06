@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ensaios clássicos sobre teologia, filosofia e literatura,  por Emanoel Coimbra">
-    <title> Ensaios Clássicos | Emanoel Coimbra</title>
+    <meta name="description" content="Ensaios clássicos sobre teologia, filosofia, literatura, comportamento e geopolítica por Emanoel Coimbra">
+    <title>Ensaios Clássicos | Emanoel Coimbra</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
@@ -19,7 +19,7 @@
     <!-- NAV -->
     <nav class="bg-[#1a1a1a] border-b border-[#c9a66b]/30 fixed w-full z-50">
         <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
-            <h1 class="heading text-3xl tracking-widest text-[#c9a66b]">Ensaios clássicos </h1>
+            <h1 class="heading text-3xl tracking-widest text-[#c9a66b]">Ensaios Clássicos</h1>
             <div class="flex gap-8 text-lg">
                 <a href="#sobre" class="hover:text-[#c9a66b] transition">Sobre</a>
                 <a href="#ensaios" class="hover:text-[#c9a66b] transition">Ensaios</a>
@@ -32,8 +32,8 @@
     <!-- HERO -->
     <section class="min-h-screen flex items-center dark-academia pt-20">
         <div class="max-w-4xl mx-auto text-center px-6">
-            <h2 class="heading text-7xl md:text-8xl leading-none mb-6">Ensaios Clássico </h2>
-            <p class="text-2xl text-[#c9a66b] mb-8">Reflexões sobre teologia, filosofia e literatura</p>
+            <h2 class="heading text-7xl md:text-8xl leading-none mb-6">Ensaios Clássicos</h2>
+            <p class="text-2xl text-[#c9a66b] mb-8">Reflexões profundas sobre teologia, filosofia, literatura, comportamento e geopolítica</p>
             <p class="text-xl italic">por Emanoel Coimbra</p>
             <a href="#ensaios" 
                class="inline-block mt-12 px-10 py-4 border border-[#c9a66b] text-[#c9a66b] hover:bg-[#c9a66b] hover:text-[#0f0f0f] text-xl transition-all duration-300">
@@ -47,22 +47,20 @@
         <h2 class="heading text-5xl mb-10 text-center">Sobre Emanoel Coimbra</h2>
         <div class="prose prose-invert max-w-none text-lg leading-relaxed">
             <p class="text-[#e8e0d8]/90">
-                apenas um rapaz tentando processar o prórpio mundo e o próprio pensamento via escrita. 
-               
+                Pensador independente e escritor, Emanoel Coimbra explora as grandes questões da existência humana através da lente da teologia, filosofia e literatura clássica. 
+                Seus ensaios buscam entender o comportamento humano, as tensões da geopolítica contemporânea e o diálogo eterno entre fé e razão.
             </p>
             <p class="text-[#e8e0d8]/90 mt-6">
-               
+                Com uma abordagem que valoriza a profundidade e a clareza, seus textos são convites à reflexão lenta em um mundo acelerado.
             </p>
         </div>
     </section>
 
-    <!-- ENSAIOS -->
+    <!-- ENSAIOS (vazio) -->
     <section id="ensaios" class="max-w-6xl mx-auto px-6 py-24">
         <h2 class="heading text-5xl mb-12 text-center">Últimos Ensaios</h2>
         
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="essays-grid">
-            <!-- Os ensaios são carregados via JavaScript -->
-        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="essays-grid"></div>
     </section>
 
     <!-- NEWSLETTER -->
@@ -79,60 +77,5 @@
                     Inscrever-se
                 </button>
             </form>
-            <p id="form-message" class="mt-6 text-sm text-[#c9a66b] hidden">✅ Inscrição realizada com sucesso! Bem-vindo à comunidade.</p>
-        </div>
-    </section>
-
-    <!-- CONTATO -->
-    <section id="contato" class="max-w-4xl mx-auto px-6 py-24 text-center">
-        <p class="text-2xl mb-6">Quer conversar sobre algum ensaio?</p>
-        <a href="mailto:coimbraemanoel@gmail.com" 
-           class="inline-flex items-center gap-3 text-[#c9a66b] hover:text-amber-300 text-xl">
-            <i class="fa-solid fa-envelope"></i> coimbraemanoel@gmail.com
-        </a>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="bg-black py-12 text-center text-[#e8e0d8]/60 text-sm">
-        <p>© 2026 Ensaios Clássicos • Emanoel Coimbra</p>
-        <p class="mt-2">paixão pela palavra .</p>
-    </footer>
-
-    <script>
-        // Dados dos ensaios (você pode editar ou adicionar quantos quiser)
-        const essays = [ }];
-
-        // Renderizar os ensaios
-        function renderEssays() {
-            const grid = document.getElementById('essays-grid');
-            grid.innerHTML = essays.map(essay => `
-                <div class="bg-[#1a1a1a] border border-[#c9a66b]/20 p-8 hover:border-[#c9a66b] transition group">
-                    <span class="text-xs uppercase tracking-widest text-[#c9a66b]">${essay.category}</span>
-                    <h3 class="heading text-2xl mt-3 mb-4 group-hover:text-[#c9a66b] transition">${essay.title}</h3>
-                    <p class="text-[#e8e0d8]/70 text-base">${essay.excerpt}</p>
-                    <div class="flex justify-between items-center mt-8">
-                        <span class="text-xs text-[#e8e0d8]/50">${essay.date}</span>
-                        <a href="#" class="text-[#c9a66b] text-sm flex items-center gap-1 hover:gap-2 transition">
-                            Ler completo <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        // Newsletter
-        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            document.getElementById('form-message').classList.remove('hidden');
-            this.reset();
-            setTimeout(() => {
-                document.getElementById('form-message').classList.add('hidden');
-            }, 5000);
-        });
-
-        // Inicializar
-        window.onload = renderEssays;
-    </script>
-</body>
-</html>
+            <p id="form-message" class="mt-6 text-sm text-[#c9a66b] hidden">✅ Inscrição realizada com sucesso!
 
