@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ensaios clássicos sobre teologia, filosofia e literatura,  por Emanoel Coimbra">
-    <title> Ensaios Clássico | Emanoel Coimbra</title>
+    <title> Ensaios Clássicos | Emanoel Coimbra</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
@@ -32,7 +32,7 @@
     <!-- HERO -->
     <section class="min-h-screen flex items-center dark-academia pt-20">
         <div class="max-w-4xl mx-auto text-center px-6">
-            <h2 class="heading text-7xl md:text-8xl leading-none mb-6">Ensaios Clássicos</h2>
+            <h2 class="heading text-7xl md:text-8xl leading-none mb-6">Ensaios Clássico </h2>
             <p class="text-2xl text-[#c9a66b] mb-8">Reflexões sobre teologia, filosofia e literatura</p>
             <p class="text-xl italic">por Emanoel Coimbra</p>
             <a href="#ensaios" 
